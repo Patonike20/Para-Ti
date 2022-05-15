@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Popup Box</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <div class="container">
+            <div class="content">
+                <h2>Amigo/a les Tengo Una Noticia</h2>
+                <p>Yo No Soy Engreido Tampoco Presumo Si Fuece Haci Usted No Me Interesaria
+                     En Lo Mas Minino y Gracias Porque Entiendo Lo Que Es Vivir y Socializar
+                      Aunque Este Legos o No Salgamos Mucho, Nunca Quiero Perder Su Amistad 
+                      Gracias Por Existir y Llegar a Mi vida :)</p>
+            </div>
+            <div class="ToggleBtn"></div>
+        </div>
+        <script>
+            let ToggleBtn = document.querySelector('.ToggleBtn');
+            let container = document.querySelector('.container');
+            ToggleBtn.onclick = function(){
+                container.classList.toggle('active');
+            }
+        </script>
+    </body>
+</html>
